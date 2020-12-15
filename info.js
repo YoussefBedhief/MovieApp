@@ -26,7 +26,7 @@
     <div class="info">
     <p class="movieTitle">${data.original_title}</p><br>
     <p class="movieDate"> ${data.release_date}(${data.original_language}) </p><br>
-    <p class="movieGenre">  ${data.runtime} min | ${ data.genres[0].name}, ${ data.genres[1].name}</p><br>
+    <p class="movieGenre">  ${data.runtime} min | ${ data.genres[0].name}</p><br>
     <p class="movieRate"><span id="star">&#9733;</span> ${data.vote_average}<span>/10</span></p><br>
 
     <p class="movieTagline">${data.tagline}</p><br>
