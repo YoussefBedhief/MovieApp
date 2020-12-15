@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.section2{
+    display: block;
+    position: static; 
+    z-index: 10;   
+}
+#main .section .posterBackdrop img{
+    height: 100%;
+    width: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+#main .section2 .posterContainer img{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    height: 470px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#main .section2 .movieTitle, #main .section2 .tvTitle{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#main .section2 .movieDate, #main .section2 .tvDate{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+#main .section2 .movieGenre, #main .section2 .tvGenre{
+    position: absolute;
+    top: 38%;
+    left: 45%;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+#main .section2 .movieRate, #main .section2 .tvRate{
+    position: absolute;
+    top: 43%;
+    left: 45%;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+#main .section2 .movieRate #star, #main .section2 .tvRate #star{
+    color: gold;
+    font-size: 30px;
+    font-weight: 300;
+}
+#main .section2 .movieRate span, #main .section2 .tvRate span{
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#main .section2 .movieTagline, #main .section2 .tvTagline{
+    position: absolute;
+    top: 52%;
+    left: 45%;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+#main .section2 .movieOverview, #main .section2 .tvOverview{
+    position: absolute;
+    top: 58%;
+    left: 45%;
+    width: 700px;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+#main a{
+    position: absolute;
+    top: 78%;
+    left: 45%;
+    border-radius: 1em;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #333;
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+    line-height: 2;  
+    transition: all 0.3s;  
+}
+#main a:hover{
+    background-color: red;
+}
+
